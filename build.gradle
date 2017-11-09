@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-	compile 'org.apache.pdfbox:fontbox:2.0.8'
+	compile 'org.apache.pdfbox:pdfbox:2.0.8'
 }
