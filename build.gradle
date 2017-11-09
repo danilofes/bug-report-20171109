@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'eclipse'
+}
+
+mainClassName = "Main"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.pdfbox:fontbox:2.0.8'
+}
